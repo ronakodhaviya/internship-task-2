@@ -1,0 +1,59 @@
+html,body
+{
+	background: #FFF;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+*
+{
+	box-sizing: border-box;
+}
+form
+{
+	text-align: center;
+	height: 120px;
+	width: 300px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	background: #EEEEEE;
+	padding: 25px 50px 25px 50px;
+}
+input
+{
+	height: 30px;
+	width: 180px;
+	margin-bottom: 20px;
+}
+button
+{
+	background: #009688;
+	width: 120px;
+	height: 30px;
+	border:none;
+	color:#FFF;
+}
+.allNodes
+{
+	display: none;
+	height: auto;
+	width: 300px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	/*background: #EEEEEE;*/
+	padding: 20px;
+
+}
+.fa-refresh
+{
+	float: right;
+}
